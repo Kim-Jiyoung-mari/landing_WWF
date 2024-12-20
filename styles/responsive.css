@@ -18,9 +18,14 @@
     #wrap .bg2 .contents .quiz_status img {width: 332px;}
     /* ==============================================3행 반응형디자인 (tablet) */
     #wrap .bg3 {padding: 80px;}
-    /* ==============================================4행 반응형디자인 (tablet) */
+    /* ==============================================4행,6행 반응형디자인 (tablet) */
+    #wrap .bg4,
+    #wrap .bg6 {padding: 80px;}
+    #wrap .bg4 .contents h2,
+    #wrap .bg6 .contents h2 {font-size:2.50rem;}
+    #wrap .bg4 .contents h2+p,
+    #wrap .bg6 .contents h2+p {margin: 40px 0; font-size:1.38rem}
     /* ==============================================5행 반응형디자인 (tablet) */
-    /* ==============================================6행 반응형디자인 (tablet) */
     /* ==============================================7행 반응형디자인 (tablet) */
     /* ==============================================8행 반응형디자인 (tablet) */
     /* ==============================================9행 반응형디자인 (tablet) */
@@ -31,6 +36,12 @@
     #wrap .bg2 .contents {flex-flow: column nowrap; align-items: center;}
     #wrap .bg2 .contents .quiz_contents {margin-bottom: 50px;}
     #wrap .bg2 .contents .quiz_contents h2 {text-align: left;}
+    #wrap .bg4,
+    #wrap .bg6 {padding: 100px 13px;}
+    #wrap .bg4 .contents h2,
+    #wrap .bg6 .contents h2 {font-size: 1.56rem;}
+    #wrap .bg4 .contents h2+p,
+    #wrap .bg6 .contents h2+p {font-size:0.88rem;}
 } /* 769~900 end */
 @media screen and (max-width:768px){
 /* =========================================================공통 선택자 + 1행 반응형디자인 (mobile) */
@@ -69,9 +80,8 @@
     #wrap .bg3 .contents .sponsor_btn img {
         width: 17px; position: relative; top: 1px;
     }
-    /* ==============================================4행 반응형디자인 (mobile) */
+    /* ==============================================4행,6행 반응형디자인 (mobile) */
     /* ==============================================5행 반응형디자인 (mobile) */
-    /* ==============================================6행 반응형디자인 (mobile) */
     /* ==============================================7행 반응형디자인 (mobile) */
     /* ==============================================8행 반응형디자인 (mobile) */
     /* ==============================================9행 반응형디자인 (mobile) */
